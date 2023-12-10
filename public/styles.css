@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;500&display=swap');
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    min-height: 100vh;
+    background-repeat: no-repeat;
+
+    background: linear-gradient(
+        to bottom right,
+        #5B7FFF, #33CCFC
+    );
+    background-size: cover;
+    font-family: 'Noto Serif', serif;
+    
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width:768px) {
+    .heading{
+        margin: 20px auto;
+    }
+}
